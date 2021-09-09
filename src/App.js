@@ -1,13 +1,13 @@
 import Shedule from './pages/shedule/Shedule';
 import Medal from "./pages/medal/Medal";
 import Cheers from "./pages/cheers/Cheers" ;
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Home from './pages/home/Home';
 function App() {
   return (
     <Router>
@@ -21,6 +21,10 @@ function App() {
           <Route path="/Cheers">
             <Cheers></Cheers>
           </Route>
+          <Route path="/">
+            <Home></Home>
+          </Route>
+
         </Switch>
     </Router>
   );
