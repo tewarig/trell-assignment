@@ -1,0 +1,40 @@
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.event-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  margin: 5% 20% 5% 20%;
+}
+
+h2 {
+  margin: 10%;
+}
+.live {
+  background-color: aquamarine;
+  border-radius: 25%;
+  width: 100%;
+  height: 100%;
+  padding: 0% 3% 0% 3%;
+}
+.select-values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-text {
+  margin: 0.5%;
+}
+
+.selector {
+  margin: 0% 3% 0% 3%;
+}
